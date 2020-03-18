@@ -1,8 +1,20 @@
-package Lote1;
+/*
+ *************************
+Lote 01 - Exercício 17 - Estrutura Decisão
+
+17 - Calcule a quantidade de litros gastos em uma viagem, sabendo que o automóvel faz 12 km/l.
+Receber o tempo de percurso e a velocidade média.
+
+Programador: Henrique Souza Lima
+Professor: Ricardo Satoshi
+ *************************
+ */
+
+package Estrutura_Seq_Dec_Rep;
 
 import java.util.Scanner;
 
-public class Ex17 {
+public class Ex17_EstDec {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);

@@ -1,8 +1,24 @@
-package Lote1;
+/*
+ *************************
+Lote 01 - Exercício 16 - Estrutura Decisão
+
+16 - Receba a quantidade de horas trabalhadas, o valor por hora,
+ o percentual de desconto e o número de descendentes. 
+ Calcule o salário que serão as horas trabalhadas x o valor por hora.
+ Calcule o salário líquido (= Salário Bruto – desconto).
+ A cada dependente será acrescido R$ 100 no Salário Líquido. Exiba o salário a receber.
+
+Programador: Henrique Souza Lima
+Professor: Ricardo Satoshi
+ *************************
+ */
+
+
+package Estrutura_Seq_Dec_Rep;
 
 import java.util.Scanner;
 
-public class Ex16 {
+public class Ex16_EstDec {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		int horas_trabalhadas, valor_hora, dependentes;

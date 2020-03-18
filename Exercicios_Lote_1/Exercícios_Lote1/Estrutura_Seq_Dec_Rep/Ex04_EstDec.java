@@ -1,8 +1,20 @@
-package Lote1;
+/*
+ *************************
+Lote 01 - Exercício 4 - Estrutura Decisão
+
+4 - Receba a temperatura em graus Celsius. Calcule e mostre a sua temperatura convertida
+em fahrenheit F = (9*C+160) /5.
+
+Programador: Henrique Souza Lima
+Professor: Ricardo Satoshi
+ *************************
+ */
+
+package Estrutura_Seq_Dec_Rep;
 
 import java.util.Scanner;
 
-public class Ex04 {
+public class Ex04_EstDec {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		double C, F;

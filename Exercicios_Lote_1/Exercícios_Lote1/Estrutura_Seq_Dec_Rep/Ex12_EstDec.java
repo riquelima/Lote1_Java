@@ -1,9 +1,20 @@
-package 
-Lote1;
+/*
+ *************************
+Lote 01 - Exercício 12 - Estrutura Decisão
+
+12 - Receba o ano de nascimento e o ano atual. Calcule e mostre a sua idade
+ e quantos anos terá daqui a 17 anos.
+
+Programador: Henrique Souza Lima
+Professor: Ricardo Satoshi
+ *************************
+ */
+
+package Estrutura_Seq_Dec_Rep;
 
 import java.util.Scanner;
 
-public class Ex12 {
+public class Ex12_EstDec {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		int ano_nascimento, ano_atual, idade_atual, idade_futura;

@@ -1,8 +1,20 @@
-package Lote1;
+/*
+ *************************
+Lote 01 - Exercício 5 - Estrutura Decisão
+
+5 - Receba os coeficientes A, B e C de uma equação do 2º grau (AX²+BX+C=0).
+ Calcule e mostre as raízes reais (considerar que a equação possue 2 raízes).
+
+Programador: Henrique Souza Lima
+Professor: Ricardo Satoshi
+ *************************
+ */
+
+package Estrutura_Seq_Dec_Rep;
 
 import java.util.Scanner;
 
-public class Ex05 {
+public class Ex05_EstDec {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		int a, b, c;

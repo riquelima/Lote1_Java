@@ -1,8 +1,19 @@
-package Lote1;
+/*
+ *************************
+Lote 01 - Exercício 3 - Estrutura Decisão
+
+3 - Receba a base e a altura de um triângulo. Calcule e mostre a sua área.
+
+Programador: Henrique Souza Lima
+Professor: Ricardo Satoshi
+ *************************
+ */
+
+package Estrutura_Seq_Dec_Rep;
 
 import java.util.Scanner;
 
-public class Ex03 {
+public class Ex03_EstDec {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		int base, altura, area;

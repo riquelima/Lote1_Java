@@ -1,8 +1,19 @@
-package Lote1;
+/*
+ *************************
+Lote 01 - Exercício 10 - Estrutura Decisão
+
+10 - Receba os 2 números inteiros. Calcule e mostre a soma dos quadrados.
+
+Programador: Henrique Souza Lima
+Professor: Ricardo Satoshi
+ *************************
+ */
+
+package Estrutura_Seq_Dec_Rep;
 
 import java.util.Scanner;
 
-public class Ex10 {
+public class Ex10_EstDec {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		int num1, num2, diferenca;

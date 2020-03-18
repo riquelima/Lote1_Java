@@ -1,8 +1,19 @@
-package Lote1;
+/*
+ *************************
+Lote 01 - Exercício 15 - Estrutura Decisão
+
+15 - Receba os valores de 2 catetos de um triângulo retângulo. Calcule e mostre a hipotenusa.
+
+Programador: Henrique Souza Lima
+Professor: Ricardo Satoshi
+ *************************
+ */
+
+package Estrutura_Seq_Dec_Rep;
 
 import java.util.Scanner;
 
-public class Ex15 {
+public class Ex15_EstDec {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		double cateto1, cateto2, hipotenusa;

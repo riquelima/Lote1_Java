@@ -1,8 +1,20 @@
-package Lote1;
+/*
+ *************************
+Lote 01 - Exercício 1 - Estrutura Decisão
+
+1 - Coletar o valor do lado de um quadrado, calcular sua área
+e apresentar o resultado.
+
+Programador: Henrique Souza Lima
+Professor: Ricardo Satoshi
+ *************************
+ */
+
+package Estrutura_Seq_Dec_Rep;
 
 import java.util.Scanner;
 
-public class Ex01 {
+public class Ex01_EstDec {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		int lado, area;  // Declarando as variÃ¡veis
@@ -16,12 +28,7 @@ public class Ex01 {
 		
 		// Exibindo resultado
 		System.out.println("A Ã¡rea do quadrado Ã©:" + area);
-		
-		
-		
-		
-		
-		
+	
 	}
 
 }

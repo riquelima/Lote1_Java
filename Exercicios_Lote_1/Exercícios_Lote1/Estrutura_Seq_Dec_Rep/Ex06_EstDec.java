@@ -1,8 +1,20 @@
-package Lote1;
+/*
+ *************************
+Lote 01 - Exercício 6 - Estrutura Decisão
+
+6 - Receba os valores em x e y. Efetua a troca de seus valores e mostre seus conteúdos.
+
+Programador: Henrique Souza Lima
+Professor: Ricardo Satoshi
+ *************************
+ */
+
+
+package Estrutura_Seq_Dec_Rep;
 
 import java.util.Scanner;
 
-public class Ex06 {
+public class Ex06_EstDec {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		int x, y, aux;

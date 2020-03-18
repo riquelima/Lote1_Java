@@ -1,8 +1,19 @@
-package Lote1;
+/*
+ *************************
+Lote 01 - Exercício 2 - Estrutura Decisão
+
+2 - Receba o salário de um funcionário e mostre o novo salário com reajuste de 15%.
+
+Programador: Henrique Souza Lima
+Professor: Ricardo Satoshi
+ *************************
+ */
+
+package Estrutura_Seq_Dec_Rep;
 
 import java.util.Scanner;
 
-public class Ex02 {
+public class Ex02_EstDec {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		double salario, reajuste;

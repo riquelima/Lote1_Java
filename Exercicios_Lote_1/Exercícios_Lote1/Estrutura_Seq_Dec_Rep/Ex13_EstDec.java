@@ -1,8 +1,20 @@
-package Lote1;
+/*
+ *************************
+Lote 01 - Exercício 13 - Estrutura Decisão
+
+13 - Receba a quantidade de alimento em quilos. Calcule e mostre quantos
+dias durará esse alimento sabendo que a pessoa consome 50g ao dia.
+
+Programador: Henrique Souza Lima
+Professor: Ricardo Satoshi
+ *************************
+ */
+
+package Estrutura_Seq_Dec_Rep;
 
 import java.util.Scanner;
 
-public class Ex13 {
+public class Ex13_EstDec {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		int quantidadekg, quantidadegm, duracao;
